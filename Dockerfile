@@ -1,12 +1,15 @@
-# Tags: latest, 4.2.5-debian-10-r2, 4.2.5, 4-debian-10, 4
+# Tags: latest, 4.2.5-debian-10-r3, 4.2.5, 4-debian-10, 4
 FROM bitnami/redmine:latest
-FROM bitnami/redmine:4.2.5-debian-10-r2
+FROM bitnami/redmine:4.2.5-debian-10-r3
 FROM bitnami/redmine:4.2.5
 FROM bitnami/redmine:4-debian-10
 FROM bitnami/redmine:4
 
 # Tags: _
 FROM bitnami/redmine:_
+
+# Tags: 4.2.5-debian-10-r2
+FROM bitnami/redmine:4.2.5-debian-10-r2
 
 # Tags: 4.2.5-debian-10-r1
 FROM bitnami/redmine:4.2.5-debian-10-r1
